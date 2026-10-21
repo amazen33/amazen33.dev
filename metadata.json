@@ -1,8 +1,0 @@
-{
-  "name": "Remix Twinfra Architecture \u0026 Systems Review",
-  "description": "Principal Cloud Architect review and interactive systems evaluation of Twinfra (amazen33/twinfra) - an AWS-compatible hybrid cloud platform.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
