@@ -1,0 +1,6 @@
+Contact: mailto:security@amazen33.dev
+Expires: 2027-04-30T00:00:00Z
+Preferred-Languages: en
+Policy: https://github.com/amazen33/amazen33.dev/blob/main/SECURITY.md
+Canonical: https://twinfra.amazen33.dev/.well-known/security.txt
+Canonical: https://twinfra.pages.dev/.well-known/security.txt
