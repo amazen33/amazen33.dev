@@ -39,6 +39,9 @@ jobs:
           test -f dist/index.html
           test -f dist/_headers
           test -f dist/favicon.svg
+          test -f dist/.well-known/security.txt
+          grep -q "^Contact: mailto:security@amazen33.dev$" dist/.well-known/security.txt
+          grep -q "^Expires: " dist/.well-known/security.txt
           ! grep -R -n -E "192\.168\.|amazen33@|hotmail|GEMINI|Principal (Solutions|Architect) (Memo|Audit)" dist/ || { echo "Private detail or stale audit label in build output"; exit 1; }
       - name: Keep the tested build for deployment
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
